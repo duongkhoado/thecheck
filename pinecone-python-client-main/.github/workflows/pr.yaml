@@ -1,0 +1,7 @@
+name: Pull-request CI
+
+on: pull_request
+
+jobs:
+  run-tests:
+    uses: './.github/workflows/testing.yaml'
